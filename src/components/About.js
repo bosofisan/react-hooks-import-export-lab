@@ -1,6 +1,9 @@
 import React from "react";
+import { getImage } from "../data/user";
 
 function About() {
+  const image = getImage ();
+  
   return (
     <div id="about">
       <h2>About Me</h2>
@@ -9,3 +12,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
